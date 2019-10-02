@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 public class Drop
 {
-
     private double x;
     private double y;
     private double z = Utils.getRandom(0, 20);
@@ -59,6 +58,5 @@ public class Drop
             ySpeed = Utils.map(z, 0, 20, 4, 10);
             this.node.setStrokeWidth(Utils.map(z, 0, 20, 2, 6));
         }
-
     }
 }
